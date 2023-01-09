@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Fraunces:opsz,wght@9..144,900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/main.css"/>
+<title>Homework2-1/2</title>
+</head>
+
+<body>
+    <!-- 
+        ============================
+        HEADER
+        ============================
+    -->
+    
+    <header class="header">
+        <div class="container">
+            <a class="logo" href="index.html">
+                <img class="logo-img" src="./icons/coffee-logobek.svg" alt="Logo of coffeeroasters" width="235" height="25"/>
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list--item">
+                        <a class="nav__list--item-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a class="nav__list--item-link" href="about-us.html">ABOUT US</a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a class="nav__list--item-link" href="subscribe.html">Create your plan</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+<!-- 
+        ============================
+        HERO
+        ============================
+-->
+
+        <div class="container">
+            <div class="hero">
+                <div class="hero__info">
+                    <h1 class="hero__info-heading">Great coffee made simple.</h1>
+                    <p class="hero__info-text">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
+                    <button class="hero__info-button">Create your plan</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 
+        ============================
+        MAIN
+        ============================
+-->
+
+<main class="main">
+
+        <!-- 
+        ============================
+        OUR COLLECTION
+        ============================
+        -->
+
+    <div class="container">
+        <ul class="collection__list">
+
+            <li class="collection__list--item">
+                <img class="collection__list--item-img" src="./images/coffee-Gran.Espresso.png" alt="coffee Gran Espresso" width="255" height="193">
+                <h3 class="collection__list--item-heading">Gran Espresso</h3>
+                <p class="collection__list--item-text">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+            </li>
+
+            <li class="collection__list--item">
+                <img class="collection__list--item-img" src="./images/coffee-Planalto.png" alt="coffee Planalto" width="256" height="193">
+                <h3 class="collection__list--item-heading">Planalto</h3>
+                <p class="collection__list--item-text">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+            </li>
+
+            <li class="collection__list--item">
+                <img class="collection__list--item-img" src="./images/coffee-Piccollo.png" alt="coffee Piccollo" width="255" height="193">
+                <h3 class="collection__list--item-heading">Piccollo</h3>
+                <p class="collection__list--item-text">Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+            </li>
+
+            <li class="collection__list--item" id="collection__list--item-4">
+                <img class="collection__list--item-img" src="./images/coffee-Danche.png" alt="coffee Danche" width="235" height="178">
+                <h3 class="collection__list--item-heading">Danche</h3>
+                <p class="collection__list--item-text">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+            </li>
+
+        </ul>
+    </div>
+
+    <!-- 
+        ============================
+        Adventages
+        ============================
+    -->
+
+    <div class="container">
+        <div class="reasons__box">
+            <h2 class="reasons__box-heading">Why choose us?</h2>
+            <p class="reasons__box-text">A large part of our role is choosing which particular coffees will be featured in our range. This means working closely with the best coffee growers to give you a more impactful experience on every level.</p>
+        </div>
+
+        <ul class="reasons__list">
+
+            <li class="reasons__list--item">
+                <img class="reasons__list--item-img" src="./icons/coffe.bean-icon.svg" alt="coffee bean" width="71" height="72">
+                <h3 class="reasons__list--item-heading">Best quality</h3>
+                <p class="reasons__list--item-text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+            </li>
+
+            <li class="reasons__list--item">
+                <img class="reasons__list--item-img" src="./icons/gift-icon.svg" alt="gift box" width="72" height="72">
+                <h3 class="reasons__list--item-heading">Exclusive benefits</h3>
+                <p class="reasons__list--item-text">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+            </li>
+
+            <li class="reasons__list--item" id="reasons__list--item-3">
+                <img class="reasons__list--item-img" src="./icons/track-icon.svg" alt="track" width="72" height="50">
+                <h3 class="reasons__list--item-heading">Free shipping</h3>
+                <p class="reasons__list--item-text">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+            </li>
+
+        </ul>
+    </div>
+
+        <!-- 
+        ============================
+        Process
+        ============================
+        -->
+
+        <div class="container">
+            <section class="process">
+                <h3 class="process__heading">How it works</h3>
+
+                <div class="process__line--box">
+                    <p class="process__line"></p>
+                    <img class="process__line-img" src="./icons/line-circle-icon.svg" alt="circle" width="31" height="31">
+                    <img class="process__line-img" id="process__line-img-active-1" src="./icons/line-circle-icon.svg" alt="circle" width="31" height="31">
+                    <img class="process__line-img" id="process__line-img-active-2" src="./icons/line-circle-icon.svg" alt="circle" width="31" height="31">
+                </div>
+
+                <ul class="process__list">
+
+                    <li class="process__list--item">
+                        <span class="process__list--item-number">01</span>
+                        <h2 class="process__list--item-heading">Pick your coffee</h2>
+                        <p class="process__list--item-text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                    </li>
+
+                    <li class="process__list--item">
+                        <span class="process__list--item-number">02</span>
+                        <h2 class="process__list--item-heading">Choose the frequency</h2>
+                        <p class="process__list--item-text">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+                    </li>
+
+                    <li class="process__list--item">
+                        <span class="process__list--item-number">03</span>
+                        <h2 class="process__list--item-heading">Receive and enjoy!</h2>
+                        <p class="process__list--item-text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+                    </li>
+
+                </ul>
+
+                <button class="process__button">Create your plan</button>
+            </section>
+        </div>
+</main>
+
+        <!-- 
+        ============================
+        FOOTER
+        ============================
+        -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__box">
+                    <a class="footer__box--link" href="index.html"><img class="footer__box--link-img" src="./icons/logobek.footer-icon.svg" alt="Logo of coffeeroasters" width="236" height="26"></a>
+
+                    <a class="footer__box-link" href="index.html">HOME</a>
+                    <a class="footer__box-link" href="index.html">ABOUT US</a>
+                    <a class="footer__box-link" id="footer__box-link-1" href="index.html">Create your plan</a>
+
+                    <a class="footer__box--link--socialmedia" href="#"><img class="footer__box--link--socialmedia-img" src="./icons/facebook-icon.svg" alt="facebook icon" width="24" height="24"></a>
+                    <a class="footer__box--link--socialmedia" href="#"><img class="footer__box--link--socialmedia-img" src="./icons/twitter-icon.svg" alt="twitter icon" width="24" height="20"></a>
+                    <a class="footer__box--link--socialmedia" href="#"><img class="footer__box--link--socialmedia-img" src="./icons/instagram-icon.svg" alt="instagramm icon" width="24" height="24"></a>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
