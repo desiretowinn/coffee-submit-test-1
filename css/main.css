@@ -50,6 +50,9 @@ HEADER
     text-transform: uppercase;
 }
 
+.nav__list--item-link:hover{
+    color: #333D4B;
+}
 /* 
 =====================
 HERO
@@ -107,6 +110,9 @@ HERO
     padding: 15px 31px;
 }
 
+.hero__info-button:hover{
+    background: #66D2CF;
+}
 /* 
 =====================
 OUR COLLECTION
@@ -333,6 +339,9 @@ PROCESS
     padding: 16px 31px;
 }
 
+.process__button:hover{
+    background: #66D2CF;
+}
 /* 
 =====================
 FOOTER
@@ -353,8 +362,8 @@ FOOTER
 }
 
 .footer__box-link{
-    width: 131px;
-    margin-right: -10px;
+    width: 283px;
+    margin-right: 10px;
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 700;
@@ -365,6 +374,10 @@ FOOTER
     text-transform: uppercase;
 }
 
+.footer__box-link:hover{
+    color: #FEFCF7;
+}
+
 #footer__box-link-1{
     margin-right: 320px;
 }
@@ -372,6 +385,7 @@ FOOTER
 .footer__box--link--socialmedia{
     margin-right: 24px;
 }
+
 
 /* 
 ================================================================================
@@ -459,6 +473,7 @@ QUALITY
 
 .section-quality .container{
     display: flex;
+    position: relative;
 }
 
 .quality__box{
@@ -492,7 +507,7 @@ QUALITY
 .quality-img{
     position: absolute;
     right: 165px;
-    top: 1540px;
+    top: -30px;
     border-radius: 9px;
 }
 
@@ -785,6 +800,10 @@ QUESTIONS LIST
     border-radius: 8px;
 }
 
+.questions__sub--box__list--item:hover{
+    background: #FDD6BA;
+}
+
 .questions__sub--box__list--item-heading{
     font-family: 'Fraunces';
     font-weight: 900;
@@ -807,6 +826,10 @@ QUESTIONS LIST
     border-radius: 8px;
     width: 228px;
     padding: 32px 28px 84px 28px;
+}
+
+.questions__sub--box__list--item-11:hover{
+    background: #FDD6BA; 
 }
 
 .questions__sub--box__list--item-heading-11{
@@ -869,4 +892,284 @@ SUMMARY
 
 .footer .container{
     padding-top: 0;
+}
+
+
+
+
+
+
+
+
+
+/* 
+-------------------------------------------------------------------------------------======================
+RESPONSIVE
+-------------------------------------------------------------------------------------======================
+*/
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    .container{
+        max-width: 768px;
+        padding: 40px 40px 50px 40px;
+    }
+    
+    /* 
+    =====================
+    HEADER
+    ===================== 
+    */
+    
+    .header .container{
+        width: 765px;
+    }
+    
+    .nav__list{
+        width: 280px;
+    }
+    
+    /* 
+    =====================
+    HERO
+    ===================== 
+    */
+    
+    .hero{
+        width: 689px;
+        height: 500px;
+        padding: 104px 233px 104px 58px;
+        background-size: cover;
+    }
+    
+    .hero__info{
+        width: 398px;
+    }
+    
+    .hero__info-heading{
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 24px;
+    }
+    
+    .hero__info-text{
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+    
+    .hero__info-button{
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 6px;
+        padding: 15px 31px;
+    }
+    /* 
+    =====================
+    OUR COLLECTION
+    ===================== 
+    */
+    
+    .collection__list{
+        display:table;
+        align-items: center;
+    }
+    
+    .collection__list--item{
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .collection__list--item-box{
+        display: table;
+        text-align: left;
+        margin-left: 38px;
+    }
+    
+    .collection__list--item-text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    /* 
+    =====================
+    Advantages
+    ===================== 
+    */
+    
+    .reasons__box{
+        width: 688px;
+        height: 573px;
+        padding: 56px 58px 0px 57px;
+    }
+    
+    .reasons__box-heading{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    
+    .reasons__box-text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .reasons__list{
+        width: 573px;
+        display: table;
+        align-items: center;
+        margin-top: -270px;
+        padding-left: 55px;
+    }
+    
+    .reasons__list--item{
+        width: 573px;
+        height: 180px;
+        padding: 41px 48px 41px 70px;
+        text-align: center;
+        display: flex;
+        margin-bottom: 24px;
+    }
+
+    .reasons__list--item-img{
+        width: 56px;
+        height: 56px;
+    }
+
+    .reasons__list--item-info{
+        display: table;
+        text-align: left;
+        margin-left: 55px;
+    }
+
+    .reasons__list--item-img-1{
+        width: 55px;
+        height: 39px;
+    }
+    
+    .reasons__list--item-heading{
+        margin: 0;
+        margin-bottom: 16px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .reasons__list--item-text{
+        margin: 0;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    #reasons__list--item-3{
+        height: 180px;
+        padding-top: 41px;
+    }
+    
+    /* 
+    =====================
+    PROCESS
+    ===================== 
+    */
+    
+    .process{
+        margin-top: 144px;
+    }
+    
+    .process__line--box{
+        width: 500px;
+    }
+    
+    #process__line-img-active-2{
+        left: 185px;
+    }
+    
+    .process__line{
+        width: 497px;
+    }
+
+    .process__list{
+        align-items: start;
+}
+
+    
+    .process__list--item{
+        width: 223px;
+        margin-bottom: 44px;
+        margin-right: 15px;
+    }
+    
+    .process__list--item-heading{
+        width: 223px;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    
+    .process__list--item-text{
+        font-size: 15px;
+        line-height: 25px;
+        width: 223px;
+        height: 154px;
+    }
+
+    /* 
+    =====================
+    FOOTER
+    ===================== 
+    */
+    
+    .footer__box{
+        width: 688px;
+        display: table;
+        align-items: center;
+        padding: 54px 0px 54px 0px;
+        text-align: center;
+    }
+    
+    .footer__box--link{
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .footer-mobile-box{
+        padding-left: 130px;
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 32px;
+        margin-bottom: 65px;
+        margin-left: -40px;
+    }
+
+    .footer__box-link{
+        width: 200px;
+        margin-right: -190px;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+
+    
+    .footer__box-link:hover{
+        color: #FEFCF7;
+    }
+    
+    #footer__box-link-1{
+        margin-right: -10px;
+    }
+    
+    .footer__box--link--socialmedia{
+        margin-right: 24px;
+    }
 }
