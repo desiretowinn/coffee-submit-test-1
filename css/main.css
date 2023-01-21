@@ -53,6 +53,17 @@ HEADER
 .nav__list--item-link:hover{
     color: #333D4B;
 }
+
+.menu-button{
+    border: none;
+    background-color: #FFFFFF;
+    display: none;
+}
+
+.menu-button:hover{
+    cursor: pointer;
+}
+
 /* 
 =====================
 HERO
@@ -904,7 +915,7 @@ SUMMARY
 
 /* 
 -------------------------------------------------------------------------------------======================
-RESPONSIVE
+RESPONSIVE TABLET  TABLET   TABLET  TABLET  TABLET  TABLET  TABLET  TABLET
 -------------------------------------------------------------------------------------======================
 */
 
@@ -990,7 +1001,7 @@ RESPONSIVE
         display: flex;
         align-items: center;
     }
-
+    
     .collection__list--item-box{
         display: table;
         text-align: left;
@@ -1040,18 +1051,18 @@ RESPONSIVE
         display: flex;
         margin-bottom: 24px;
     }
-
+    
     .reasons__list--item-img{
         width: 56px;
         height: 56px;
     }
-
+    
     .reasons__list--item-info{
         display: table;
         text-align: left;
         margin-left: 55px;
     }
-
+    
     .reasons__list--item-img-1{
         width: 55px;
         height: 39px;
@@ -1096,11 +1107,11 @@ RESPONSIVE
     .process__line{
         width: 497px;
     }
-
+    
     .process__list{
         align-items: start;
-}
-
+    }
+    
     
     .process__list--item{
         width: 223px;
@@ -1121,7 +1132,7 @@ RESPONSIVE
         width: 223px;
         height: 154px;
     }
-
+    
     /* 
     =====================
     FOOTER
@@ -1151,7 +1162,7 @@ RESPONSIVE
         margin-bottom: 65px;
         margin-left: -40px;
     }
-
+    
     .footer__box-link{
         width: 200px;
         margin-right: -190px;
@@ -1159,7 +1170,7 @@ RESPONSIVE
         line-height: 15px;
         text-transform: uppercase;
     }
-
+    
     
     .footer__box-link:hover{
         color: #FEFCF7;
@@ -1171,5 +1182,305 @@ RESPONSIVE
     
     .footer__box--link--socialmedia{
         margin-right: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+-------------------------------------------------------------------------------------======================
+RESPONSIVE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE
+-------------------------------------------------------------------------------------======================
+*/
+
+
+
+
+
+@media only screen and (max-width: 375px){
+    .container{
+        max-width: 375px;
+        padding: 32px 24px 72px 24px;
+    }
+    
+    /* 
+    =====================
+    HEADER
+    ===================== 
+    */
+    
+    .header .container{
+        width: 375px;
+    }
+    
+    .logo-img{
+        width: 163px;
+        height: 18px;
+    }
+    
+    .nav{
+        display: none;
+    }
+    
+    .menu-button{
+        display: block;
+    }
+    
+    /* 
+    =====================
+    HERO
+    ===================== 
+    */
+    
+    .hero{
+        width: 327px;
+        padding: 100px 24px 99px 24px;
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .hero__info{
+        width: 279px;
+    }
+    
+    .hero__info-heading{
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 24px;
+    }
+
+
+    /* 
+    =====================
+    OUR COLLECTION
+    ===================== 
+    */
+    
+    #our-collection-container{
+        padding-left: 0;
+    }
+
+    .collection__list{
+        display:table;
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+    }
+    
+    .collection__list--item{
+        text-align: center;
+        display: table;
+        align-items: center;
+    }
+    
+    .collection__list--item-box{
+        display: table;
+        text-align: center;
+        margin-left: 38px;
+    }
+    
+    .collection__list--item-text{
+        width: 282px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .collection__list--item-img{
+        margin-left: 50px;
+    }
+    
+    /* 
+    =====================
+    Advantages
+    ===================== 
+    */
+    
+    .reasons__box{
+        width: 327px;
+        height: 902px;
+        padding: 64px 24px 0px 24px;
+    }
+    
+    .reasons__box-heading{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    
+    .reasons__list{
+        width: 279px;
+        display: table;
+        align-items: center;
+        margin-top: -565px;
+        padding-left: 25px;
+    }
+    
+    .reasons__list--item{
+        width: 279px;
+        height: 382px;
+        padding: 72px 33px 51px 33px;
+        text-align: center;
+        display: table;
+    }
+    
+    .reasons__list--item-img{
+        width: 72px;
+        height: 72px;
+        margin-bottom: 56px;
+    }
+    
+    .reasons__list--item-info{
+        display: table;
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .reasons__list--item-img-1{
+        width: 72px;
+        height: 50px;
+        margin-bottom: 67px;
+    }
+    
+    .reasons__list--item-heading{
+        margin: 0;
+        margin-bottom: 16px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .reasons__list--item-text{
+        margin: 0;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    #reasons__list--item-3{
+        height: 382px;
+        padding-top: 41px;
+    }
+    
+    /* 
+    =====================
+    PROCESS
+    ===================== 
+    */
+    
+    .process{
+        margin-top: 0px;
+    }
+    
+    .process__heading{
+        text-align: center;
+    }
+
+    .process__line--box{
+        display: none;
+    }
+    
+    .process__list{
+        width: 327px;
+        display: table;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .process__list--item{
+        text-align: center;
+        width: 327px;
+        margin-bottom: 56px;
+        margin-right: -50px;
+        margin-left: 0px;
+    }
+    
+    .process__list--item-heading{
+        text-align: center;
+        width: 223px;
+        font-size: 28px;
+        line-height: 32px;
+        margin-left: 50px;
+    }
+    
+    .process__list--item-text{
+        width: 327px;
+        margin-right: 0;
+        font-size: 15px;
+        line-height: 25px;
+        width: 223px;
+        height: 154px;
+        margin-left: 50px;
+    }
+
+    .process__button{
+        padding: 16px 31px;
+        margin-left: 50px;
+    }
+    
+    /* 
+    =====================
+    FOOTER
+    ===================== 
+    */
+    
+    .footer__box{
+        width: 327px;
+        display: table;
+        align-items: center;
+        padding: 54px 54px 56px 55px;
+        text-align: center;
+    }
+    
+    .footer__box--link{
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .footer-mobile-box{
+        padding-left: 130px;
+        width: 121px;
+        display: table;
+        margin: 0px auto;
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .footer__box-link{
+        display: table;
+        width: 121px;
+        margin-right: 0px;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+    
+    
+    .footer__box-link:hover{
+        color: #FEFCF7;
+    }
+    
+    #footer__box-link-1{
+        margin-right: -10px;
+    }
+    
+    .footer__box--link--socialmedia{
+        margin-right: 24px;
+    }
+
+    #footer__box--link--socialmedia-12{
+        margin-left: 25px;
     }
 }
